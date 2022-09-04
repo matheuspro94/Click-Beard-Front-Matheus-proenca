@@ -1,6 +1,7 @@
+import { CardBarbers } from '../CardBarbers'
 import styles from './styles.module.scss'
 
-export function ChooseSchedule() {
+export function CreateSchedule() {
   return (
     <section className={styles.AppointmentsContainer}>
       <div className={styles.AppointmentsContent}>
@@ -32,21 +33,7 @@ export function ChooseSchedule() {
 
       <div>
         <h1>Barbeiros disponiveis</h1>
-        <div>
-          <img src="" alt="" />
-          <div>
-            <h2>Nome</h2>
-            <p>Pedro Augusto</p>
-          </div>
-        </div>
-
-        <div>
-          <img src="" alt="" />
-          <div>
-            <h2>Nome</h2>
-            <p>Pedro Augusto</p>
-          </div>
-        </div>
+        <CardBarbers />
       </div>
 
       <div>
