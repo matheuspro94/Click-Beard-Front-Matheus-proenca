@@ -22,14 +22,15 @@ export function CardAppointments() {
         </div>
         {user && (
           status === true ? (
-            <button>Cancelar agendamento</button>
+            <button className={styles.btn}>Cancelar agendamento</button>
           ) : (
-            <button disabled >
+            <button disabled className={styles.btn}>
               cancelar agendamento
             </button>
           )
         )}
       </div>
+      <span className={styles.content}></span>
     </>
   )
 }

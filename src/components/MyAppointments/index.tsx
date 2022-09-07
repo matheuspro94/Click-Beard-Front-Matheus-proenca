@@ -1,4 +1,6 @@
+import { Link } from "react-router-dom"
 import { CardAppointments } from "../CardAppointments"
+
 import styles from './styles.module.scss'
 
 export function MyAppointments() {
@@ -7,7 +9,7 @@ export function MyAppointments() {
       <div className={styles.AppointmentsContent}>
         <h1>Meus Agendamentos</h1>
         <CardAppointments />
-        <button>Agendar horário</button>
+        <Link to='/scheduling'>Agendar horário</Link>
       </div>
     </section>
   )
