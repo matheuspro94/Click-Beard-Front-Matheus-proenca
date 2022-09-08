@@ -15,7 +15,7 @@ Esse projeto tem como objetivo, colocar em prática os conhecimentos em Git e Re
  
 ```bash
 # No terminal, clone o projeto em SSH:
-$ git clone git@github.com:matheuspro94/click-beard-front.git
+$ git clone git@github.com:matheuspro94/Click-Beard-Front-Matheus-proenca.git
  
 # Entre na pasta do projeto:
 $ cd click-beard-front
@@ -33,7 +33,7 @@ $ yarn start
  
 O back-end da aplicação precisa ser executado para o web site funcionar, o link do repositório está aqui:
  
-<a>https://github.com/matheuspro94/clickbeard-back</a>
+<a targer="_blank">[https://github.com/matheuspro94/clickbeard-back](https://github.com/matheuspro94/Click-Beard-Back-Matheus-Proenca)</a>
  
 No arquivo acima tem as instruções para rodar ele localmente.
  
