@@ -1,14 +1,14 @@
 import { ReactElement, JSXElementConstructor, ReactFragment, ReactPortal } from "react";
 import styles from './styles.module.scss'
 
-interface IBarbers {
-  id: string;
-  cpf: string,
-  name: string,
-  age: string,
-  date_of_hiring: string,
-  specialties: string[]
-}
+// interface IBarbers {
+//   id: string;
+//   cpf: string,
+//   name: string,
+//   age: string,
+//   date_of_hiring: string,
+//   specialties: string[]
+// }
 
 export function CardBarbers({ barbers }: any) {
   console.log(barbers);
